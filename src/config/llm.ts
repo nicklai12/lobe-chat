@@ -87,6 +87,9 @@ export const getLLMConfig = () => {
       ENABLED_STEPFUN: z.boolean(),
       STEPFUN_API_KEY: z.string().optional(),
 
+      ENABLED_NEBIUS: z.boolean(),
+      NEBIUS_API_KEY: z.string().optional(),
+
       ENABLED_NOVITA: z.boolean(),
       NOVITA_API_KEY: z.string().optional(),
 
@@ -166,11 +169,23 @@ export const getLLMConfig = () => {
       ENABLED_FAL: z.boolean(),
       FAL_API_KEY: z.string().optional(),
 
+      ENABLED_BFL: z.boolean(),
+      BFL_API_KEY: z.string().optional(),
+
       ENABLED_MODELSCOPE: z.boolean(),
       MODELSCOPE_API_KEY: z.string().optional(),
 
       ENABLED_V0: z.boolean(),
       V0_API_KEY: z.string().optional(),
+
+      ENABLED_AI302: z.boolean(),
+      AI302_API_KEY: z.string().optional(),
+
+      ENABLED_AKASHCHAT: z.boolean(),
+      AKASHCHAT_API_KEY: z.string().optional(),
+
+      ENABLED_AIHUBMIX: z.boolean(),
+      AIHUBMIX_API_KEY: z.string().optional(),
     },
     runtimeEnv: {
       API_KEY_SELECT_MODE: process.env.API_KEY_SELECT_MODE,
@@ -335,11 +350,26 @@ export const getLLMConfig = () => {
       ENABLED_FAL: process.env.ENABLED_FAL !== '0',
       FAL_API_KEY: process.env.FAL_API_KEY,
 
+      ENABLED_BFL: !!process.env.BFL_API_KEY,
+      BFL_API_KEY: process.env.BFL_API_KEY,
+
       ENABLED_MODELSCOPE: !!process.env.MODELSCOPE_API_KEY,
       MODELSCOPE_API_KEY: process.env.MODELSCOPE_API_KEY,
 
       ENABLED_V0: !!process.env.V0_API_KEY,
       V0_API_KEY: process.env.V0_API_KEY,
+
+      ENABLED_AI302: !!process.env.AI302_API_KEY,
+      AI302_API_KEY: process.env.AI302_API_KEY,
+
+      ENABLED_AKASHCHAT: !!process.env.AKASHCHAT_API_KEY,
+      AKASHCHAT_API_KEY: process.env.AKASHCHAT_API_KEY,
+
+      ENABLED_AIHUBMIX: !!process.env.AIHUBMIX_API_KEY,
+      AIHUBMIX_API_KEY: process.env.AIHUBMIX_API_KEY,
+
+      ENABLED_NEBIUS: !!process.env.NEBIUS_API_KEY,
+      NEBIUS_API_KEY: process.env.NEBIUS_API_KEY,
     },
   });
 };

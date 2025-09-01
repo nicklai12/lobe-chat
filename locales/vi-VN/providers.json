@@ -2,8 +2,17 @@
   "ai21": {
     "description": "AI21 Labs xây dựng các mô hình cơ bản và hệ thống trí tuệ nhân tạo cho doanh nghiệp, tăng tốc ứng dụng trí tuệ nhân tạo sinh sinh trong sản xuất."
   },
+  "ai302": {
+    "description": "302.AI là một nền tảng ứng dụng AI theo yêu cầu, cung cấp API AI và các ứng dụng AI trực tuyến đầy đủ nhất trên thị trường"
+  },
   "ai360": {
     "description": "360 AI là nền tảng mô hình và dịch vụ AI do công ty 360 phát hành, cung cấp nhiều mô hình xử lý ngôn ngữ tự nhiên tiên tiến, bao gồm 360GPT2 Pro, 360GPT Pro, 360GPT Turbo và 360GPT Turbo Responsibility 8K. Những mô hình này kết hợp giữa tham số quy mô lớn và khả năng đa phương thức, được ứng dụng rộng rãi trong tạo văn bản, hiểu ngữ nghĩa, hệ thống đối thoại và tạo mã. Thông qua chiến lược giá linh hoạt, 360 AI đáp ứng nhu cầu đa dạng của người dùng, hỗ trợ nhà phát triển tích hợp, thúc đẩy sự đổi mới và phát triển ứng dụng thông minh."
+  },
+  "aihubmix": {
+    "description": "AiHubMix cung cấp truy cập đến nhiều mô hình AI thông qua một giao diện API thống nhất."
+  },
+  "akashchat": {
+    "description": "Akash là một thị trường tài nguyên đám mây phi tập trung, có giá cả cạnh tranh so với các nhà cung cấp đám mây truyền thống."
   },
   "anthropic": {
     "description": "Anthropic là một công ty tập trung vào nghiên cứu và phát triển trí tuệ nhân tạo, cung cấp một loạt các mô hình ngôn ngữ tiên tiến như Claude 3.5 Sonnet, Claude 3 Sonnet, Claude 3 Opus và Claude 3 Haiku. Những mô hình này đạt được sự cân bằng lý tưởng giữa trí thông minh, tốc độ và chi phí, phù hợp cho nhiều ứng dụng từ khối lượng công việc doanh nghiệp đến phản hồi nhanh. Claude 3.5 Sonnet, là mô hình mới nhất của họ, thể hiện xuất sắc trong nhiều đánh giá, đồng thời duy trì tỷ lệ hiệu suất cao."
@@ -19,6 +28,9 @@
   },
   "bedrock": {
     "description": "Bedrock là dịch vụ do Amazon AWS cung cấp, tập trung vào việc cung cấp các mô hình ngôn ngữ AI và mô hình hình ảnh tiên tiến cho doanh nghiệp. Gia đình mô hình của nó bao gồm dòng Claude của Anthropic, dòng Llama 3.1 của Meta, v.v., bao quát nhiều lựa chọn từ nhẹ đến hiệu suất cao, hỗ trợ nhiều nhiệm vụ như tạo văn bản, đối thoại, xử lý hình ảnh, phù hợp cho các ứng dụng doanh nghiệp với quy mô và nhu cầu khác nhau."
+  },
+  "bfl": {
+    "description": "Phòng thí nghiệm nghiên cứu trí tuệ nhân tạo tiên phong dẫn đầu, kiến tạo cơ sở hạ tầng thị giác cho ngày mai."
   },
   "cloudflare": {
     "description": "Chạy các mô hình học máy được hỗ trợ bởi GPU không máy chủ trên mạng lưới toàn cầu của Cloudflare."
