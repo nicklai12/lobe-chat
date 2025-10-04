@@ -77,7 +77,8 @@
     "sendWithCmdEnter": "Appuyez sur <key/> pour envoyer",
     "sendWithEnter": "Appuyez sur <key/> pour envoyer",
     "stop": "Arrêter",
-    "warp": "Saut de ligne"
+    "warp": "Saut de ligne",
+    "warpWithKey": "Appuyez sur la touche <key/> pour un retour à la ligne"
   },
   "intentUnderstanding": {
     "title": "En train de comprendre et d'analyser votre intention..."
@@ -148,6 +149,11 @@
       "title": "Détails de génération",
       "total": "Total consommé"
     }
+  },
+  "minimap": {
+    "jumpToMessage": "Aller au message n° {{index}}",
+    "nextMessage": "Message suivant",
+    "previousMessage": "Message précédent"
   },
   "newAgent": "Nouvel agent",
   "pin": "Épingler",
@@ -280,6 +286,7 @@
       "actionFiletip": "Télécharger un fichier",
       "actionTooltip": "Télécharger",
       "disabled": "Le modèle actuel ne prend pas en charge la reconnaissance visuelle et l'analyse de fichiers, veuillez changer de modèle pour l'utiliser",
+      "fileNotSupported": "Le mode navigateur ne prend pas en charge le téléchargement de fichiers, seules les images sont autorisées",
       "visionNotSupported": "Le modèle actuel ne prend pas en charge la reconnaissance visuelle, veuillez changer de modèle pour l'utiliser"
     },
     "preview": {
@@ -288,6 +295,9 @@
         "pending": "Préparation du téléchargement...",
         "processing": "Traitement du fichier..."
       }
+    },
+    "validation": {
+      "videoSizeExceeded": "La taille du fichier vidéo ne peut pas dépasser 20 Mo, la taille actuelle est de {{actualSize}}"
     }
   },
   "zenMode": "Mode de concentration"

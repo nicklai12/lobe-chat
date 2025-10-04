@@ -77,7 +77,8 @@
     "sendWithCmdEnter": "按 <key/> 鍵發送",
     "sendWithEnter": "按 <key/> 鍵發送",
     "stop": "停止",
-    "warp": "換行"
+    "warp": "換行",
+    "warpWithKey": "按 <key/> 鍵換行"
   },
   "intentUnderstanding": {
     "title": "正在理解並分析您的意圖..."
@@ -148,6 +149,11 @@
       "title": "生成明細",
       "total": "總計消耗"
     }
+  },
+  "minimap": {
+    "jumpToMessage": "跳轉至第 {{index}} 條訊息",
+    "nextMessage": "下一條訊息",
+    "previousMessage": "上一條訊息"
   },
   "newAgent": "新建助手",
   "pin": "置頂",
@@ -280,6 +286,7 @@
       "actionFiletip": "上傳檔案",
       "actionTooltip": "上傳",
       "disabled": "當前模型不支援視覺識別和檔案分析，請切換模型後使用",
+      "fileNotSupported": "瀏覽器模式下暫不支援上傳檔案，僅支援圖片",
       "visionNotSupported": "當前模型不支援視覺識別，請切換模型後使用"
     },
     "preview": {
@@ -288,6 +295,9 @@
         "pending": "準備上傳...",
         "processing": "檔案處理中..."
       }
+    },
+    "validation": {
+      "videoSizeExceeded": "影片檔案大小不能超過 20MB，當前檔案大小為 {{actualSize}}"
     }
   },
   "zenMode": "專注模式"
